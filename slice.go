@@ -11,12 +11,15 @@ func main() {
 	s1 = x[:]
 	fmt.Println(s1)
 
+	// index 1以上4未満をスライスする
 	s2 := x[1:4]
 	fmt.Println(s2)
 
+	// index 3以上をスライスする
 	s3 := x[3:]
 	fmt.Println(s3)
 
+	// index 4未満をスライスする
 	s4 := x[:4]
 	fmt.Println(s4)
 
